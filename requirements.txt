@@ -217,8 +217,8 @@ zstandard==0.23.0
 fastapi
 uvicorn[standard]
 google-search-results
-serpapi
 crewai-tools
+
 
 
 
