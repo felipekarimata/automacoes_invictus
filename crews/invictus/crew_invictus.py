@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from serpapi import GoogleSearch
+from serpapi.google_search import GoogleSearch
 from crewai import Crew, Agent, Task
 from langchain_openai import ChatOpenAI
 
