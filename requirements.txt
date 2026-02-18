@@ -219,6 +219,8 @@ uvicorn[standard]
 google-search-results
 serpapi
 crewai-tools
+python-google-search-results
+
 
 
 
