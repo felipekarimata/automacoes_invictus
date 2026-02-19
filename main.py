@@ -108,3 +108,8 @@ def executar_crew_catarine(tema: str = Query(...), palavra_chave: str = Query(..
 @app.get("/teste")
 def teste():
     return {"mensagem": "Teste OK"}
+
+
+@app.get("/health")
+def health():
+    return {"ok": True}
